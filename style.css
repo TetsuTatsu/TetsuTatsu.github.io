@@ -1,5 +1,5 @@
 body {
-  background-color: #80aba9;
+  background-color: #ffffff;
   margin: 0;
 }
 #container {
@@ -9,19 +9,41 @@ body {
 }
 header {
   height: 250px;
-  background-color: #ffffff;
+  background-color: #80aba9;
   margin-right: auto;
   margin-left: auto;
 }
 article {
-  background-color: #eeeeee;
+  background-color: #c1e4e9;
   width: 550px;
   margin-top: 25px;
   float: left;
 }
+article h2 {
+  background-color: #80aba9;
+  margin-top: 0;
+  padding-left: 15px;
+}
+article p {
+  padding-left: 15px;
+}
 aside {
-  background-color: #eeeeee;
+  background-color: #c1e4e9;
   width: 200px;
   margin-top: 25px;
   float: right;
+}
+h5 {
+  background-color: #80aba9;
+  margin: 0;
+  padding-left: 12px;
+}
+li {
+  font-size: 12px;
+  margin-left: -20px;
+}
+aside p{
+  font-size: 12px;
+  padding-left: 12px;
+  line-height: 0.7;
 }
