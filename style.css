@@ -13,23 +13,38 @@ header {
   margin-right: auto;
   margin-left: auto;
 }
-article {
-  background-color: #c1e4e9;
-  width: 550px;
+#article-left {
+  background-color: #ffffff;
+  width: 290px;
   margin-top: 25px;
   float: left;
 }
+#article-right {
+  background-color: #ffffff;
+  width: 290px;
+  margin-top: 25px;
+  margin-left: 10px;
+  float: left;
+}
 article h2 {
-  background-color: #80aba9;
+  background-color: #ffffff;
   margin-top: 0;
   padding-left: 15px;
+  font-size: 21px;
+  border-left: 10px solid #80aba9
 }
 article p {
   padding-left: 15px;
 }
+/*いったいどうなってやがるんだ・・・*/
+.4koma-center {
+  margin: 0;
+  width: 300px;
+  text-align: center;
+}
 aside {
   background-color: #ffffff;
-  width: 200px;
+  width: 180px;
   margin-top: 25px;
   float: right;
 }
