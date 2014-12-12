@@ -1,20 +1,23 @@
 body {
   font-family: '07やさしさアンチック','メイリオ','Hiragino Kaku Gothic Pro';
-  background-color: #fffc78;
+  background-color: #38b48b;
   margin: 0;
 }
 #container {
-  background-color: #d0ff93;
+  background-color: #ffffff;
   width: 800px;
   margin-left: auto;
   margin-right: auto;
   overflow: hidden;
+  border-radius: 30px;
 }
 header {
   height: 250px;
-  background-color: #d0ff93;
+  background-color: #d8e698;
   margin-right: auto;
   margin-left: auto;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
 }
 /* 本文 */
 article {
@@ -23,7 +26,6 @@ article {
   margin-top: 25px;
   float: left;
   margin-left: 120px;
-  border: 3px dotted #643a1f;
   border-radius: 10px;
 }
 article h2 {
@@ -31,7 +33,7 @@ article h2 {
   margin-top: 0;
   padding-left: 15px;
   font-size: 21px;
-  border-left: 10px solid #80aba9;
+  border-left: 10px solid #00a381;
 }
 article p {
   padding-left: 15px;
@@ -39,7 +41,7 @@ article p {
 /*いったいどうなってやがるんだ・・・*/
 .4koma-center {
   margin: 0;
-  width: 300px;
+  width: 400px;
   text-align: center;
 }
 /* 最新コメント・プロフィールなど 下段の情報*/
@@ -54,15 +56,23 @@ nav {
   margin-top: 50px;
 }
 section {
-  background-color: #ffffff;
+  background-color: #d8e698;
+  border-bottom-left-radius: 7px;
+  border-bottom-right-radius: 7px;
+}
+nav section {
+  padding-bottom: 8px;
 }
 nav h5 {
-  background-color: #643a1f;
+  background-color: #00a381;
   margin: 0;
   padding-left: 12px;
   padding-top: 3px;
   margin-left: 2px;
-  border-radius: 3px;
+  border-radius: 5px;
+  margin-top: 7px;
+  border-top-left-radius: 7px;
+  border-top-right-radius: 7px;
 }
 li {
   font-size: 12px;
@@ -80,20 +90,24 @@ form p {
 }
 /* 登場人物 */
 aside h5 {
-  background-color: #643a1f;
+  background-color: #00a381;
   margin: 0;
   padding-left: 12px;
   margin-right: 2px;
   margin-bottom: 5px;
   border-radius: 3px;
+  margin-top: 7px;
 }
 aside h6 {
-  background-color: #643a1f;
+  background-color: #00a381;
   margin: 0;
   padding-left: 12px;
   padding-top: 3px;
   margin-right: 2px;
   border-radius: 3px;
+  margin-top: 7px;
+  border-top-left-radius: 7px;
+  border-top-right-radius: 7px;
 }
 aside p {
   font-size: 12px;
@@ -104,9 +118,11 @@ aside p {
 /* フッター */
 footer {
   clear: both;
-  background-color: #80aba9;
+  background-color: #d8e698;
   margin-left: auto;
   margin-right: auto;
   text-align: center;
   padding-bottom: 3px;
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
 }
