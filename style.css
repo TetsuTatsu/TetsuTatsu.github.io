@@ -25,7 +25,7 @@ article {
   width: 400px;
   margin-top: 25px;
   float: left;
-  margin-left: 120px;
+  margin-left: 150px;
   border-radius: 10px;
 }
 article h2 {
@@ -35,17 +35,8 @@ article h2 {
   font-size: 21px;
   border-left: 10px solid #00a381;
 }
-article p {
-  padding-left: 15px;
-}
-/*いったいどうなってやがるんだ・・・*/
-.4koma-center {
-  margin: 0;
-  width: 400px;
-  text-align: center;
-}
 /* 最新コメント・プロフィールなど 下段の情報*/
-#aside-nav {
+#asidenav {
   background-color: #ffffff;
   width: 180px;
   margin-top: 25px;
@@ -62,14 +53,17 @@ section {
 }
 nav section {
   padding-bottom: 8px;
+  border-top-left-radius: 7px;
+  border-top-right-radius: 7px;
+}
+#lastsection {
+  margin-bottom: 50px;
 }
 nav h5 {
   background-color: #00a381;
   margin: 0;
   padding-left: 12px;
   padding-top: 3px;
-  margin-left: 2px;
-  border-radius: 5px;
   margin-top: 7px;
   border-top-left-radius: 7px;
   border-top-right-radius: 7px;
@@ -89,13 +83,16 @@ form p {
   margin-bottom: 25px;
 }
 /* 登場人物 */
+aside section {
+  border-top-left-radius: 7px;
+  border-top-right-radius: 7px;
+}
 aside h5 {
   background-color: #00a381;
   margin: 0;
   padding-left: 12px;
-  margin-right: 2px;
   margin-bottom: 5px;
-  border-radius: 3px;
+  border-radius: 7px;
   margin-top: 7px;
 }
 aside h6 {
@@ -103,8 +100,6 @@ aside h6 {
   margin: 0;
   padding-left: 12px;
   padding-top: 3px;
-  margin-right: 2px;
-  border-radius: 3px;
   margin-top: 7px;
   border-top-left-radius: 7px;
   border-top-right-radius: 7px;
