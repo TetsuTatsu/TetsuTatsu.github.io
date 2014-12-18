@@ -68,6 +68,12 @@ nav h5 {
   border-top-left-radius: 7px;
   border-top-right-radius: 7px;
 }
+h5 img {
+  width: 20px;
+  vertical-align: -3px;
+  padding-right: 5px;
+  margin-left: -5px;
+}
 li {
   font-size: 12px;
   margin-left: -10px;
