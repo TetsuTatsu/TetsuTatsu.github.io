@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset = "utf-8">
+  <title>記事管理</title>
+  <link rel="stylesheet" type="text/css" href="http://yui.yahooapis.com/3.18.1/build/cssreset-context/cssreset-context-min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="dot">
+  <div id="container">
+    <header>
+      <!-- <img id="title" src="title.png" alt="タイトル"> -->
+      <img id="daiji" src="daiji.png" alt="タイトル">
+      <img id="charactor" src="charactor.png" alt="キャラクター">
+    </header>
+    <div class="gizagiza"></div>
+    <div id="asidenav">
+      <aside>
+        <h5><img src="sakura_icon.png" alt="アイコン">メニュー</h5>
+        <section>
+          <ul>
+            <li>新しく記事を書く</li>
+            <li>過去の記事を編集</li>
+            <li>など</li>
+          </ul>
+        </section>
+      </aside>
+    </div><!-- "asidenav" -->
+    <article>
+      <table>
+        <h2><img id="midasi" src="midasi.png" alt="見出し">過去の記事を修正する</h2>
+        <tr>
+          <caption>記事選択</caption>
+          <th>日付</th>
+          <td><input type="date"></input></td>
+        </tr>
+        <tr>
+          <th>タイトル</th>
+          <td><input type="text"></input></td>
+        </tr>
+        <tr>
+          <th>カテゴリ</th>
+          <td>
+            <label>
+              <input type="checkbox" name=category value=diary>日記</input>
+            </label>
+            <label>
+              <input type="checkbox" name=category value=illust>イラスト</input>
+            </label>
+            <label>
+              <input type="checkbox" name=category value=4koma>４コマ</input>
+            </label>
+          </td>
+        </tr>
+        <tr>
+          <th>本文</th>
+          <td><textarea type="text"></textarea></td>
+        </tr>
+        <tr>
+          <th>公開</th>
+          <td>公開or編集中</td>
+        </tr>
+      </table>
+      <p class="button" ><input type="submit" value="編集する"></p>
+      <p class="button" ><input type="submit" value="プレビュー"></p>
+      <p class="button" ><input type="submit" value="送信"></p>
+      <p class="button" ><input type="submit" value="削除する"></p>
+    </article>
+    <footer>
+      <small>copyright ©とりあえず。 all rights reserved.</small><br>
+      <small>powered by <a href="http://blog.fc2.com" target="_blank">FC2ブログ.</small>
+    </footer>
+  </div><!-- container -->
+</body>
+</html>
