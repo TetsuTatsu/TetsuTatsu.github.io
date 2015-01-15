@@ -32,25 +32,30 @@
       <table>
         <h2><img id="midasi" src="midasi.png" alt="見出し">過去の記事を修正する</h2>
         <tr>
-          <caption>記事選択</caption>
-          <th></th>
-          <th>日付</th>
           <th>タイトル</th>
-          <th>公開</th>
+          <td><input type="text"></input></td>
         </tr>
         <tr>
-          <td class="checkbox"><input type="checkbox"></input></td>
-          <td>１月１日</td>
-          <td>第１話　はじまりはじまり</td>
-          <td>公開or編集中</td>
+          <th>カテゴリ</th>
+          <td>
+            <label>
+              <input type="checkbox" name=category value=diary>日記</input>
+            </label>
+            <label>
+              <input type="checkbox" name=category value=illust>イラスト</input>
+            </label>
+            <label>
+              <input type="checkbox" name=category value=4koma>４コマ</input>
+            </label>
+          </td>
+        </tr>
         <tr>
-          <td class="checkbox"><input type="checkbox"></input></td>
-          <td>２月１日</td>
-          <td>第２話　はじまりはじまり</td>
-          <td>編集中</td>
+          <th>本文</th>
+          <td><textarea type="text"></textarea></td>
         </tr>
       </table>
-      <p class="button" ><input type="submit" value="編集する"></p>
+      <p class="button" ><input type="submit" value="プレビュー"></p>
+      <p class="button" ><input type="submit" value="送信"></p>
       <p class="button" ><input type="submit" value="削除する"></p>
     </article>
     <footer>

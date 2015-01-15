@@ -224,14 +224,18 @@ table {
   border-collapse: collapse;
   margin-left: -50px;
   margin-top: 20px;
+  margin-bottom: 20px;
 }
 th {
-  width: 125px;
+  width: 480px;
   font-size: small;
 }
 td {
   width: 480px;
   font-size: small;
+}
+tr.class {
+  width: 50px;
 }
 label {
   font-size: small;
@@ -246,4 +250,12 @@ textarea {
 }
 p input {
   font-size: xx-large;
+}
+/* リンク */
+a {
+  color: #000000;
+  text-decoration: none;
+}
+a:hover {
+  color: #ff8800;
 }
