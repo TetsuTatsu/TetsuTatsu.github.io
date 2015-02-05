@@ -145,6 +145,9 @@ section li {
   margin-left: -10px;
   margin-right: 20px;
 }
+#all_list {
+  font-size: x-small;
+}
 nav p{
   font-size: 12px;
   padding-left: 12px;
