@@ -12,7 +12,7 @@ body {
 }
 #container {
   background-color: #ffffff;
-  width: 800px;
+  width: 850px;
   margin-left: auto;
   margin-right: auto;
   overflow: hidden;
@@ -48,23 +48,23 @@ header {
   padding: 20px 40px 20px 20px;
 }
 /* 本文 */
-article {
+#contents {
+  width: 620px;
+  float:left;
+  overflow: hidden;
+}
+#contents article {
   background-color: #ffffff;
   width: 400px;
-  margin-top: 25px;
-  margin-right: 50px;
-  padding-left: 50px;
+  margin-top: 30px;
   float: right;
-  overflow: hidden;
 }
 article h2 {
   background-color: #d8e698;
   margin-top: 0px;
   margin-bottom: 0px;
-  margin-left: -50px;
   border-radius: 10px;
   font-size: 21px;
-  /*border-left: 10px solid #00a381;*/
 }
 #midasi {
   width: 38px;
@@ -97,20 +97,20 @@ article li:first-child {
 .comic {
   float: left;
   margin-bottom: 8px;
+  margin-left: 50px;
 }
 article p {
+  font-size: small;
+  margin: 0;
   clear: both;
 }
 /* 最新コメント・プロフィールなど 下段の情報*/
-#asidenav {
+nav {
   background-color: #ffffff;
   width: 180px;
   margin-top: 25px;
-  margin-left:50px;
-  float: left;
-}
-nav {
-  margin-top: 25px;
+  margin-right: 20px;
+  float: right;
 }
 section {
   background-color: #d8e698;
@@ -158,6 +158,13 @@ form p {
   margin-bottom: 25px;
 }
 /* 登場人物 */
+#contents aside {
+  background-color: #ffffff;
+  width: 180px;
+  margin-top: 25px;
+  margin-left: 20px;
+  float: left;
+}
 aside section {
   border-top-left-radius: 7px;
   border-top-right-radius: 7px;
