@@ -74,6 +74,7 @@ article h2 {
 }
 time {
   font-size: x-small;
+  margin-right: 5px;
   float: right;
 }
 article ul {
@@ -96,11 +97,14 @@ article li:first-child {
 }
 .comic {
   float: left;
-  margin-bottom: 8px;
+  margin-top: 10px;
+  margin-bottom: 30px;
   margin-left: 50px;
 }
 article p {
   font-size: small;
+  padding-left: 15px;
+  padding-right: 15px;
   margin: 0;
   clear: both;
 }
@@ -122,9 +126,6 @@ nav section {
   border-top-left-radius: 7px;
   border-top-right-radius: 7px;
 }
-#lastsection {
-  margin-bottom: 50px;
-}
 nav h5 {
   background-color: #00a381;
   margin: 0;
@@ -140,13 +141,24 @@ h5 img {
   padding-right: 5px;
   margin-left: -5px;
 }
+#profile {
+  margin-top: 50px;
+  background-color: #bce2e8;
+}
+#profile h5{
+  background-color: #009b9f;
+}
+#lastsection {
+  margin-bottom: 50px;
+  background-color: #bce2e8;
+}
+#lastsection h5{
+  background-color: #009b9f;
+}
 section li {
   font-size: 12px;
   margin-left: -10px;
   margin-right: 20px;
-}
-#all_list {
-  font-size: x-small;
 }
 nav p{
   font-size: 12px;
@@ -198,6 +210,7 @@ aside p {
 #next {
  clear: both;
  text-align: center;
+ padding-top: 40px;
  margin-bottom: 15px;
 }
 #next small{
